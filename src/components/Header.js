@@ -14,9 +14,8 @@ export default () => (
   <nav
     className="navbar is-transparent"
     role="navigation"
-    aria-label="dropdown navigation">
-    <LinkStyled className="navbar-item" to="/">
-      {config.siteName}
-    </LinkStyled>
+    aria-label="dropdown navigation"
+  >
+    <LinkStyled className="navbar-item" to="/"></LinkStyled>
   </nav>
 );
